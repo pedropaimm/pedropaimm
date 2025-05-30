@@ -1,0 +1,21 @@
+#Calculadora
+
+n1 = int(input("Digite o primeiro número: "))
+formula = int(input("Escolha sua operação: 1.Soma | 2.Subtração | 3.Divisão | 4.Multiplicação "))
+n2 = int(input("Digite o segundo número: "))
+
+soma = n1 + n2
+subtracao = n1 - n2
+multiplicacao = n1 * n2
+divisao = n1 / n2
+
+if formula == 1:
+    print("Resultado final: ", soma)
+elif formula == 2:
+    print("Resultado final: ", subtracao)
+elif formula == 3:
+    print("Resultado final: ", divisao)
+elif formula == 4:
+    print("Resultado final: ", multiplicacao)
+else:
+    print("Você não escolheu uma fórmula valida")
