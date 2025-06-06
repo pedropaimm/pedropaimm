@@ -1,0 +1,12 @@
+contador = 0
+num = []
+while contador < 10:
+    contador +=1
+    numero = int(input("Digite um número: "))
+    num.append(numero)
+
+print(num)
+for numeros in num:
+    soma = soma + numeros
+print(soma)
+        
