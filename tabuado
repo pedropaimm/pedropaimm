@@ -1,0 +1,7 @@
+num = int(input("Insira um número para saber sua tabuada: "))
+contador = 0
+
+for numero in range(10):
+    contador += 1
+    multi = contador * num
+    print(multi)
